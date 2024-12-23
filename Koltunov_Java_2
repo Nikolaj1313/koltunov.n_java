@@ -1,15 +1,19 @@
-public class StringComparison {
+public class CompareStrings {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите первую строку (a): ");
+
+        System.out.print("Введите строку a: ");
         String a = scanner.nextLine();
-        System.out.print("Введите вторую строку (b): ");
+        System.out.print("Введите строку b: ");
         String b = scanner.nextLine();
-        if (a.equals(b)) {222
+
+        // Сравнение строк
+        if (a.equals(b)) {
             System.out.println("Строки идентичны");
         } else {
             System.out.println("Строки неидентичны");
         }
+
         scanner.close();
     }
 }
